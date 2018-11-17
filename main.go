@@ -93,7 +93,7 @@ func main() {
 	r := mux.NewRouter()
 
 	// Hardcoded data - @todo: add database
-	books = append(books, Book{ID: "1", Isbn: "438227", Title: "Book One", Author: &Author{Firstname: "John", Lastname: "Doe"}})
+	books = append(books, Book{ID: "1", Isbn: "438227", Title: "Book Onetest", Author: &Author{Firstname: "John", Lastname: "Doe"}})
 	books = append(books, Book{ID: "2", Isbn: "454555", Title: "Book Two", Author: &Author{Firstname: "Steve", Lastname: "Smith"}})
 
 	// Route handles & endpoints
